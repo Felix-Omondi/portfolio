@@ -30,12 +30,12 @@ export class App {
   }
 
   download() {
-    const url = 'resume.pdf';
+    const url = 'Felix_Omondi_Resume.pdf';
     this.fileService.downloadFile(url).subscribe((blob) => {
       const a = document.createElement('a');
       const objectUrl = URL.createObjectURL(blob);
       a.href = objectUrl;
-      a.download = 'resume.pdf';
+      a.download = 'Felix_Omondi_Resume.pdf';
       a.click();
       URL.revokeObjectURL(objectUrl);
     });
@@ -49,7 +49,7 @@ export class App {
       newTab.document.title = 'Loading Resume...';
     }
 
-    const url = 'resume.pdf';
+    const url = 'Felix_Omondi_Resume.pdf';
     this.fileService.downloadFile(url).subscribe({
       next: (blob) => {
         const viewableBlob = new Blob([blob], { type: 'application/pdf' });

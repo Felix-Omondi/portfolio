@@ -64,7 +64,7 @@ export const PROFILE: Profile = {
     linkedin: 'https://www.linkedin.com/in/felix-omondi',
     github: 'https://github.com/Felix-Omondi',
     email: 'felix.omondi@hotmail.com',
-    resume: 'resume.pdf',
+    resume: 'Felix_Omondi_Resume.pdf',
   },
 
   experience: [
