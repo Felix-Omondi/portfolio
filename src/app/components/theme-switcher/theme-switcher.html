@@ -1,0 +1,12 @@
+ <div class="theme-switch" role="group" aria-label="Colour theme">
+      @for (o of options; track o.value) {
+        <button
+          type="button"
+          [attr.aria-pressed]="theme.mode() === o.value"
+          [attr.title]="o.hint"
+          (click)="theme.set(o.value)"
+        >
+          {{ o.label }}
+        </button>
+      }
+    </div>
