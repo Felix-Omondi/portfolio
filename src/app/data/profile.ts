@@ -128,5 +128,15 @@ export const PROFILE: Profile = {
       url: 'https://github.com/Felix-Omondi/RedisCachingLibrary',
       kind: 'Open source',
     },
+    {
+      name: 'Bookworm',
+      description:
+        'A web application for managing your current book collection. It allows users to add, edit, and delete books, as well as track their reading progress.',
+      impact:
+        'The application has been used by over 2 users to manage their book collections.',
+      tags: ['Python', 'Flask', 'Postgres', 'React'],
+      url: 'https://bookworm-manic.onrender.com',
+      kind: 'Personal',
+    },
   ],
 };

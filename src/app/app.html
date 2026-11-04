@@ -80,7 +80,8 @@
             >
           </h3>
           <p>{{ pr.description }}</p>
-          <p class="impact">{{ pr.impact }}</p>
+          <!-- Check whether to RESTORE this section -->
+          <!-- <p class="impact">{{ pr.impact }}</p> -->
           <ul class="tags" aria-label="Technologies">
             @for (t of pr.tags; track t) {
               <li>{{ t }}</li>
