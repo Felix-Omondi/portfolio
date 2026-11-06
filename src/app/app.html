@@ -35,7 +35,9 @@
       <a class="btn primary" (click)="projectsSection.scrollIntoView({ behavior: 'smooth' })">
         View projects
       </a>
-      <a class="btn" (click)="download()">Download résumé</a>
+      <!-- <a class="btn" (click)="download()">Download résumé</a> -->
+      <a class="btn" (click)="download()">Download resume</a>
+
     </div>
     <ul class="chips" aria-label="Core skills">
       @for (s of p.skills; track s) {
@@ -102,7 +104,8 @@
       <li><a [href]="p.links.linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
       <li><a [href]="p.links.github" target="_blank" rel="noopener noreferrer">GitHub</a></li>
       <li><a [href]="'mailto:' + p.links.email">Email</a></li>
-      <li><a (click)="viewInNewTab($event)" style="cursor: pointer">Résumé (PDF)</a></li>
+      <!-- <li><a (click)="viewInNewTab($event)" style="cursor: pointer">Résumé (PDF)</a></li> -->
+       <li><a (click)="viewInNewTab($event)" style="cursor: pointer">Resume (PDF)</a></li>
     </ul>
     <p class="fine">© {{ year }} {{ p.name }}</p>
   </div>

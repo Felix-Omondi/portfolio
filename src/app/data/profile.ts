@@ -47,15 +47,17 @@ export const PROFILE: Profile = {
   availability: 'Open to new opportunities',
   skills: [
     'C#',
+    'Python',
     'TypeScript',
+    'JavaScript',
     'Angular',
+    'React',
     // "Node.js",
     'REST APIs',
     // "Cloud & CI/CD",
     // "Accessibility",
     'Git & GitHub',
     'SQL',
-    'Python',
     'Redis',
     'ElasticSearch',
   ],
@@ -132,8 +134,7 @@ export const PROFILE: Profile = {
       name: 'Bookworm',
       description:
         'A web application for managing your current book collection. It allows users to add, edit, and delete books, as well as track their reading progress.',
-      impact:
-        'The application has been used by over 2 users to manage their book collections.',
+      impact: 'The application has been used by over 2 users to manage their book collections.',
       tags: ['Python', 'Flask', 'Postgres', 'React'],
       url: 'https://bookworm-manic.onrender.com',
       kind: 'Personal',
